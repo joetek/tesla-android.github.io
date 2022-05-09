@@ -147,7 +147,7 @@ If you want to use Navigation audio for a longer road trip change Audio Channel(
 
 ### Extras
 
-#### 2012.12.3.2
+#### 2022.12.3.2
 
 If you launch the app in the car while in Park the video stream will have much higher quality and framerate then if launched in motion. The screen will stay in higher quality mode until the website is reloaded(even if you drive the car after switching from Park to Drive/Reverse).
 This limitation has been introduced for me in Tesla Software 2022.12.3.2 and I quickly patched this by switching to a MJPEG based solution in case of WebRTC being restricted. This will be addressed in a more elegant solution in next releases.
